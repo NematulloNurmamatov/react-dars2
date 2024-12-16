@@ -1,0 +1,80 @@
+.container {
+    max-width: 1220px;
+    width: 80%;
+    margin: auto;
+}
+
+.cards {
+    margin-top: 100px;
+}
+
+.cards-form {
+    display: flex;
+    justify-content: space-between;
+    input {
+        width: 90%;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border: 1px solid #666666;
+        border-top-left-radius: 10px; /* Yuqori chap burchak */
+        border-bottom-left-radius: 10px; /* Pastki chap burchak */
+
+
+    }
+    button {
+        all: unset;
+        background-color: aquamarine;
+        border: 1px solid #666666;
+        width: 10%;
+        padding: 10px;
+        transition: .3s;
+        text-align: center;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+
+
+    }
+    button:hover {
+        background-color: transparent;
+        color: white;
+    }
+}
+
+.t_text {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #000000;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #666666;
+    button {
+        all: unset;
+        background-color: red;
+        color: white;
+        // border: 1px solid #000;
+        width: 100px;
+        cursor: pointer;
+        padding: 10px;
+        transition:.3s;
+        text-align: center;
+        border-radius: 10px;
+    }
+    button:hover {
+        background-color: rgba(255, 0, 0, 0.738);
+        // color: black;
+    }
+}
+
+img {
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+}
